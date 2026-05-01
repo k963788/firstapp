@@ -21,7 +21,7 @@ if product_name:
         "Flipkart Minutes": f"https://www.flipkart.com/search?q={query}&otracker=search&otracker1=search&marketplace=HYPERLOCAL&as-show=on&as=off&pageUID",
         "Swiggy Instamart": f"https://www.swiggy.com/instamart/search?custom_back=true&query={query}",
         "JioMart": f"https://www.jiomart.com/search/{query}",
-        "DMart": f"https://www.dmart.in/search?q={query}",
+        #"DMart": f"https://www.dmart.in/search?q={query}",
         #"Zepto": f"https://www.zeptonow.com/search?q={query}", this is currently not working, maybe they changed their search URL structure. Will update when I find the new one.  
         #"Myntra Now": f"https://www.myntra.com/search?q={query}"
     }
