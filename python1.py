@@ -15,15 +15,14 @@ if product_name:
     
     # Store URLs
     urls = {
-        "Blinkit": f"https://blinkit.com/s/?q={query}",
-        "BigBasket": f"https://www.bigbasket.com/ps/?q={query}",
-        "Amazon Now": f"https://www.amazon.in/tez/browse/search?qcbrand=qqfsWw9RkO&searchKeyword={query}",
-        "Flipkart Minutes": f"https://www.flipkart.com/search?q={query}&otracker=search&otracker1=search&marketplace=HYPERLOCAL&as-show=on&as=off&pageUID",
-        "Swiggy Instamart": f"https://www.swiggy.com/instamart/search?custom_back=true&query={query}",
-        "JioMart": f"https://www.jiomart.com/search/{query}",
-        #"DMart": f"https://www.dmart.in/search?q={query}",
-        #"Zepto": f"https://www.zeptonow.com/search?q={query}", this is currently not working, maybe they changed their search URL structure. Will update when I find the new one.  
-        #"Myntra Now": f"https://www.myntra.com/search?q={query}"
+        "Amazon": f"https://www.amazon.in/s?k={query}",
+        "Flipkart": f"https://www.flipkart.com/search?q={query}",
+        #"Myntra": f"https://www.myntra.com/search?q={query}",
+        #"Snapdeal": f"https://www.snapdeal.com/search?keyword={query}",
+        # "Ajio": f"https://www.ajio.com/search/?text={query}",
+        # "Nykaa": f"https://www.nykaa.com/search/result/?q={query}",
+        # "Tata CLiQ": f"https://www.tatacliq.com/search/?searchCategory=all&text={query}",
+        # "Reliance Digital": f"https://www.reliancedigital.in/search?q={query}"
     }
 
     st.subheader(f"Results for '{product_name.title()}'")
